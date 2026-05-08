@@ -1,0 +1,17 @@
+/* /src/styles/indexStyles.css */
+/*Aqui dá um reset no HTML*/
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; /*Limita o conteúdo dentro do espaço da tela.*/  
+}
+
+/*Aqui dá altura real para o html e body*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    color: darkgoldenrod;
+}
