@@ -1,0 +1,7 @@
+02:20 08/05/2026
+
+etLe
+encryptLife
+
+Essa aplicação visa substituir o CrypChat.
+This application is intended to replace CrypChat.
