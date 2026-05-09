@@ -1,0 +1,106 @@
+/* /src/styles/indexStyles.css */
+
+*{ /*Reseta o HTML*/
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; /*Limita o conteúdo dentro do espaço da tela*/  
+}
+
+/*Aqui dá altura real para o html e body*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #076461;
+}
+
+.main_card{
+    background-color: #ffbc11;
+    border-radius: 1rem;
+}
+
+.main_section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem;
+}
+
+h1{
+    color: #ff3d00;
+    margin: 0.5rem;
+}
+
+/*----------↓ Campos login/senha ↓----------*/
+.field_form{
+    margin: 0.4rem;
+}
+
+.input_label{
+    font-size: 16px;
+    background-color: #076461;
+    color: #ffbc11;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+/*Altera estilo do placeholder*/
+.input_label::placeholder{
+    font-size: 16px;
+    font-style: italic;
+    color: #ffbc11;
+    opacity: 70%;
+}
+
+/*Quando clica no campo, o placeholder some*/
+.input_label:focus::placeholder{
+    color: transparent;
+}
+/*---------------↑ Campos login/senha ↑---------------*/
+
+.btn_reset, .btn_connect{
+    background-color: #076461;
+    color: #ffbc11;
+    font-weight: bold;
+    padding: 4px;
+    margin: 0.1rem;
+    border-radius: 0.4rem;
+}
+
+footer{
+    margin-top: 0.3rem;
+    align-self: flex-end; /*Auto se alinha e leva a versão para a direita*/
+}
+
+h4{
+    color: #ff3d00;
+    font-style: italic;
+}
+
+/*-----↓ Label Escondido (screen reader only)↓-----*/
+.sr-only {
+    position: absolute; /*Tira o elemento do fluxo normal da página*/
+    width: 1px;         /*reduz ao mínimo possível*/
+    height: 1px;        /*Mesmo de cima ↑*/
+    overflow: hidden;   /*Esconde qualquer conteúdo que ultrapasse*/
+    white-space: nowrap;/*Evita quebra de linha*/
+    clip: rect(0 0 0 0);/*Recorta a área visível para nada*/
+}
+
+/*-----↓ Paleta de cores ↓-----
+.color1 { #002c2b };
+.color2 { #ff3d00 };
+.color3 { #ffbc11 };
+.color4 { #0a837f };
+.color5 { #076461 };
+*

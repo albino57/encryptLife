@@ -1,0 +1,50 @@
+<!--/public/index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/indexStyles.css">
+    <title>etLe</title>
+</head>
+
+<body>
+    <main>
+        <!--login Card-->
+        <section class="main_card">
+            <section class="main_section">
+
+                <header>
+                    <h1>etLe</h1>
+                </header>
+
+                <form action=""> <!-- ↓ Campo dos inputs-->
+
+                    <div class="field_form">
+                        <label class="sr-only" for="id_username">Username</label>
+                        <input class="input_label" type="text" placeholder="👤Login" id="id_username" name="username" required>
+                    </div>
+                    <div class="field_form">
+                        <label class="sr-only" for="id_password">Password</label>
+                        <input class="input_label" type="password" placeholder="🔑Password" id="id_password" name="password" required>
+                    </div>
+
+                </form>
+
+                <!-- ↓ Botões -->
+                <section class="btn">
+                    <button class="btn_reset">Reset</button>
+                    <button class="btn_connect">Connect</button>
+                </section>
+
+                <footer> <!--App version-->
+                    <h4>v0.1</h4>
+                </footer>
+
+            </section>
+        </section>
+    </main>
+
+</body>
+</html>
